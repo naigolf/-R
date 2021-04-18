@@ -15,7 +15,7 @@ app.listen(app.get('port'), function() {
     })
     
 app.get('/', function (req, res) {
-        res.end('by...Lik Bilan')
+        res.end('by...Lik Bilan++')
     })
 
 app.get('/:phone/:baht', function (req, res) {
